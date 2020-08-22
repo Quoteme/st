@@ -1,11 +1,11 @@
-pkgname=st
+pkgname=st-luca
 pkgver=0.8.4
 pkgrel=1
-pkgdesc='A simple virtual terminal emulator for X.'
+pkgdesc='Lucas Version of Suckless terminal with (all) scrollback and newterm patches'
 arch=('i686' 'x86_64' 'armv7h')
 license=('MIT')
 depends=(libxft)
-url=https://st.suckless.org
+url=https://github.com/quoteme/st
 _patches=("https://st.suckless.org/patches/scrollback/st-scrollback-20200419-72e3f6c.diff"
           "https://st.suckless.org/patches/scrollback/st-scrollback-mouse-20191024-a2c479c.diff"
           "https://st.suckless.org/patches/scrollback/st-scrollback-mouse-altscreen-20200416-5703aa0.diff"
