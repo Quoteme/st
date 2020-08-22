@@ -21,8 +21,6 @@ _sourcedir=$pkgname-$pkgver
 _makeopts="--directory=$_sourcedir"
 
 prepare() {
-  patch --directory="$_sourcedir" --strip=0 < terminfo.patch
-
   # This package provides a mechanism to provide a custom config.h. Multiple
   # configuration states are determined by the presence of two files in
   # $BUILDDIR:
@@ -73,6 +71,5 @@ package() {
   make $_makeopts PREFIX=/usr DESTDIR="$pkgdir" install
   install $installopts "$licdir" "$_sourcedir/LICENSE"
   install $installopts "$docdir" "$_sourcedir/README"
-  install $installopts "$docdir" README.terminfo.rst
   install $installopts "$shrdir/$pkgname" "$_sourcedir/st.info"
 }
