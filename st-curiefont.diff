@@ -1,0 +1,12 @@
+diff -up st-0.8.4-newterm/config.def.h st-0.8.4-newterm-curiefont/config.def.h
+--- st-0.8.4-newterm/config.def.h	2020-08-22 22:38:19.656480219 +0200
++++ st-0.8.4-newterm-curiefont/config.def.h	2020-08-23 10:33:34.518048713 +0200
+@@ -5,7 +5,7 @@
+  *
+  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
+  */
+-static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
++static char *font = "curie:pixelsize=14";
+ static int borderpx = 2;
+ 
+ /*
