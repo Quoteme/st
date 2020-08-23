@@ -4,7 +4,7 @@ pkgrel=1
 pkgdesc='Lucas Version of Suckless terminal with (all) scrollback and newterm patches'
 arch=('i686' 'x86_64' 'armv7h')
 license=('MIT')
-depends=(libxft)
+depends=(libxft, bdf-curie)
 url=https://github.com/quoteme/st
 _patches=("https://st.suckless.org/patches/scrollback/st-scrollback-20200419-72e3f6c.diff"
           "https://st.suckless.org/patches/scrollback/st-scrollback-mouse-20191024-a2c479c.diff"
