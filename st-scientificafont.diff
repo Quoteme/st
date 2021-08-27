@@ -6,7 +6,7 @@ diff -up st-0.8.4/config.def.h st-0.8.4-scientificafont/config.def.h
   * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
   */
 -static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
-+static char *font = "scientifica:pixelsize=12";
++static char *font = "scientifica:pixelsize=11:antialias=false";
  static int borderpx = 2;
 
  /*
